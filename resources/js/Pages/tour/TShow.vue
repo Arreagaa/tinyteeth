@@ -4,7 +4,7 @@ import TInfo from "./utils/TInfo.vue";
 <template>
     <section class="mt-4">
         <div
-            class="container flex flex-col items-center px-5 mx-auto md:flex-row"
+            class="container flex flex-col items-center lg:px-5 px-2 mx-auto md:flex-row"
         >
             <div
                 class="flex flex-col items-start w-full pt-0 mb-8 text-left lg:flex-grow md:w-1/2 xl:mr-20 md:pr-24 md:mb-0"
@@ -15,7 +15,7 @@ import TInfo from "./utils/TInfo.vue";
                     Tiny Teeth
                 </h1>
                 <p
-                    class="MerriweatherSansLight leading-relaxed text-left text-zinc-800 text-2xl"
+                    class="MerriweatherSansLight leading-relaxed text-left text-zinc-800 text-xl"
                 >
                     The place where you can get a perfect smile.
                 </p>

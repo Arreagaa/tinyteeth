@@ -9,7 +9,7 @@ import TDoctor from "./utils/TDoctor.vue";
     <section class="pt-16">
         <TDoctor />
     </section>
-    <div class="text-center items-center mt-16">
+    <div class="text-center items-center py-16 px-6">
         <a
             href=""
             class="DoctorSoosBold text-2xl text-sky-600 hover:text-lime-500"

@@ -9,7 +9,7 @@
             <div
                 class="MerriweatherSansLight max-w-screen-lg text-zinc-800 sm:text-lg text-justify"
             >
-                <h2 class="DoctorSoosBold mb-4 text-5xl text-sky-600">
+                <h2 class="DoctorSoosBold mb-4 text-5xl text-sky-600 text-left">
                     Your smile begins here
                 </h2>
                 <p class="mb-4">
@@ -34,7 +34,7 @@
                     Saturdays: by appointments only
                 </p>
                 <a
-                    href="#"
+                    href="/#Tour"
                     class="inline-flex items-center font-medium text-sky-600 hover:text-lime-500"
                 >
                     Know more

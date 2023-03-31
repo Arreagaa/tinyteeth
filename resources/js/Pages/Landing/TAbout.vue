@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-blue-50">
+    <section>
         <div
             class="gap-16 items-center px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:px-6"
         >

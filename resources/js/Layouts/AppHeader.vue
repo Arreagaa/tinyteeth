@@ -16,18 +16,21 @@ watch(active, (newActive) => {
 });
 
 const urls = ref({
-    tiny: [{ title: "Tiny Teeth", url: "/about" }],
+    tiny: [{ title: "Tiny Teeth", url: "/#About" }],
     team: [
-        { title: "Our Doctors", url: "/about" },
+        { title: "Our Doctors", url: "/#Doctors" },
         { title: "Our Staff", url: "/our-athletes" },
     ],
-    docs: [{ title: "Documents and Forms", url: "/#Competencias" }],
-    tour: [{ title: "Gallery", url: "/tour" }],
+    docs: [{ title: "Documents and Forms", url: "/Patient" }],
+    tour: [{ title: "Our Facilities", url: "/#Tour" }],
     reviews: [
         { title: "Happy Customers", url: "/reviews" },
         { title: "reviews", url: "/reviews" },
     ],
-    contact: [{ title: "write to us", url: "/contact/user" }],
+    contact: [
+        { title: "Find Us", url: "/#Contact" },
+        { title: "Contact Form", url: "/Contact-Form" },
+    ],
 });
 </script>
 <template>
@@ -44,7 +47,7 @@ const urls = ref({
                         <img
                             src="/assets/tiny_teeth_logo.png"
                             alt="image"
-                            class="rounded mx-auto d-block my-8 z-40"
+                            class="rounded mx-auto d-block my-8"
                         />
                     </a>
                 </div>
@@ -59,9 +62,7 @@ const urls = ref({
             </div>
         </div>
         <header class="max-w-fit m-auto">
-            <div
-                class="flex justify-center items-center lg:py-2 sm:py-8"
-            >
+            <div class="flex justify-center items-center lg:py-2 sm:py-8">
                 <nav
                     class="flex w-full lg:p-8 items-center lg:justify-between justify-center"
                 >
@@ -110,7 +111,7 @@ const urls = ref({
             </div>
             <div
                 v-if="active"
-                class="absolute w-screen h-screen bg-blue-50 top-0 left-0"
+                class="absolute w-screen h-screen bg-[url('/assets/bg/fondo_nubes.jpg')] bg-cover top-0 left-0"
                 style="z-index: 98"
             >
                 <div class="w-screen h-screen">

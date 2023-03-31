@@ -1,6 +1,6 @@
 <template>
     <div class="flex max-w-screen-xl mx-auto items-center">
-        <img src="/assets/bg/Inicio_fix.png" class="" />
+        <img src="/assets/bg/inicio.png" class="" />
     </div>
     <footer class="bg-lime-200 text-zinc-900 px-6 lg:px-8 py-12">
         <div class="max-w-screen-xl mx-auto mb-12">
@@ -24,14 +24,14 @@
                         <ul class="space-y-2">
                             <li>
                                 <a
-                                    href="#"
+                                    href="/#About"
                                     class="font-normal text-base hover:text-sky-600"
                                     >About Us</a
                                 >
                             </li>
                             <li>
                                 <a
-                                    href="#"
+                                    href="/#Tour"
                                     class="font-normal text-base hover:text-sky-600"
                                     >Tour Our Facility
                                 </a>
@@ -49,7 +49,7 @@
                         <ul class="grid lg:grid-cols-2">
                             <li class="mb-2">
                                 <a
-                                    href="#"
+                                    href="/#Doctors"
                                     class="font-normal text-base hover:text-sky-600"
                                     >Meet Our Doctors
                                 </a>
@@ -88,7 +88,7 @@
                         <ul class="grid lg:grid-cols-2">
                             <li class="mb-2">
                                 <a
-                                    href="#"
+                                    href="/#Contact"
                                     class="font-normal text-base hover:text-sky-600"
                                     >Contact Us
                                 </a>
@@ -103,7 +103,7 @@
                             </li>
                             <li class="mb-2">
                                 <a
-                                    href="#"
+                                    href="/Patient"
                                     class="font-normal text-base hover:text-sky-600"
                                     >Documents and Forms
                                 </a>

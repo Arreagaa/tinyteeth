@@ -15,7 +15,7 @@
     @apply ring-red-400 border-red-400;
 }
 .focus-form{
-    @apply focus:ring-yellow-400 focus:border-yellow-400
+    @apply focus:ring-sky-600 focus:border-sky-600
 }
 @font-face {
     font-family: DoctorSoosBold;
