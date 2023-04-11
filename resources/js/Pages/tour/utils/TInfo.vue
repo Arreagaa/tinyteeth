@@ -58,14 +58,17 @@ export default {
                 {
                     image: "/assets/tour/image13.jpg",
                 },
+                {
+                    image: "/assets/tour/image14.jpg",
+                },
             ],
         };
     },
 };
 </script>
 <template>
-    <div class="w-full lg:max-w-3xl rounded border-8 border-sky-600">
-        <div class="swiper">
+    <div class="w-full lg:max-w-3xl lg:mt-10">
+        <div class="swiper inline-block">
             <swiper :navigation="true" :modules="modules" class="mySwiper">
                 <swiper-slide v-for="(item, index) in tour" :key="index">
                     <TTour :item="item" />
@@ -83,7 +86,7 @@ export default {
 
 .swiper-button-next,
 .swiper-button-prev {
-    color: #ebebeb;
+    color: #0284c7;
 }
 
 .swiper-slide {

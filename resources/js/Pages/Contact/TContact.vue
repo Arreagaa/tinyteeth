@@ -27,19 +27,19 @@ const center = ref({ lat: 41.68741798281349, lng: -72.92500940903643 });
                         <h2 class="DoctorSoosBold text-4xl text-sky-600">
                             Call Us!
                         </h2>
-                        <span class="MerriweatherSansLight text-lime-500 text-xl">Phone 860.583.TINY <br> Fax 860.583.8470</span>
+                        <span class="MerriweatherSansRegular text-lime-500 text-xl">Phone 860.583.TINY <br> Fax 860.583.8470</span>
                     </p>
                     <p class="flex items-center -mx-2 text-gray-700">
                         <h2 class="DoctorSoosBold text-4xl text-sky-600">
                             Email Us!
                         </h2>
-                        <a href="mailto:tinyteethct@yahoo.com" class="MerriweatherSansLight text-lime-500 text-xl underline">tinyteethct@yahoo.com</a>
+                        <a href="mailto:tinyteethct@yahoo.com" class="MerriweatherSansRegular text-lime-500 text-xl underline">tinyteethct@yahoo.com</a>
                     </p>
                     <p class="flex items-center -mx-2 text-gray-700">
                         <h2 class="DoctorSoosBold text-4xl text-sky-600">
                             See Us!
                         </h2>
-                        <span class="MerriweatherSansLight text-lime-500 text-xl">710 King Street Bristol, CT 06010</span>
+                        <span class="MerriweatherSansRegular text-lime-500 text-xl">710 King Street Bristol, CT 06010</span>
                     </p>
                 </div>
             </div>

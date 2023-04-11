@@ -1,41 +1,48 @@
 <template>
     <section class="mt-2">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-12 lg:px-6">
+        <div class="px-4 mx-auto max-w-screen-xl pt-12 lg:px-6">
             <div
-                class="lg:flex hidden items-end self-end place-content-end place-items-end -mb-96"
-            >
-                <img src="/assets/animals/monkey_giraffe.png" class="lg:mt-8" />
-            </div>
-            <div
-                class="MerriweatherSansLight max-w-screen-lg text-zinc-800 sm:text-lg text-justify"
+                class="MerriweatherSansLight max-w-screen-lg text-zinc-800 text-base text-justify"
             >
                 <h2 class="DoctorSoosBold mb-4 text-5xl text-sky-600 text-left">
                     Your smile begins here
                 </h2>
                 <p class="mb-4">
-                    Our goal is to make every patients experience a positive one
-                    without the use of sedation or restraint. During treatment
-                    patients are able to relax and watch their favorite movie or
-                    cartoon. Parents are always welcome to accompany their
-                    children during treatment. También hablamos español.
+                    We offer a brand-new office with state-of-the-art equipment
+                    for the diagnosis and treatment of children of all ages.
+                    Digital x-rays have the advantage of less radiation. Our
+                    waiting room offers a large screen television and Xbox games
+                    and i-pads for your enjoyment. During treatment, patients
+                    are able to relax and watch their favorite movie or cartoon.
+                    Parents are always welcome to accompany their children
+                    during treatment. También se habla español.
                 </p>
-                <span class="DoctorSoosBold text-lime-500 mb-4 text-3xl">
-                    We Accept HUSKY!
-                </span>
                 <p class="mb-4">
-                    Accepting HUSKY & All Major Insurances Convenient Payment
-                    Plans For Self Paying Customers.
+                    Call us and visit our office! We have the BEST TEAM to serve
+                    our patients and make their dental visit fun and
+                    comfortable.
+                </p>
+                <p class="mb-4">
+                    We accept all major insurance companies including Husky.
+                    Currently accepting new patients younger than 8 years old
+                    only.
                 </p>
                 <span class="DoctorSoosBold text-lime-500 mb-4 text-3xl">
                     Office Hours
                 </span>
                 <p class="mb-4">
-                    Monday through Friday: 9-5 <br />
-                    Saturdays: by appointments only
+                    Monday through Thursday: 9am to 5pm <br />
+                    Friday: 9am to 3pm (in the summer we close at 1pm).
+                </p>
+                <span class="DoctorSoosBold text-lime-500 mb-4 text-3xl">
+                    After hours emergency care
+                </span>
+                <p class="mb-4">
+                    Call our office to speak with one of our doctors on call.
                 </p>
                 <a
                     href="/#Tour"
-                    class="inline-flex items-center font-medium text-sky-600 hover:text-lime-500"
+                    class="inline-flex items-center text-lg font-medium text-sky-600 hover:text-lime-500"
                 >
                     Know more
                     <svg
@@ -51,6 +58,11 @@
                         ></path>
                     </svg>
                 </a>
+            </div>
+            <div
+                class="lg:flex hidden items-end self-end place-content-end place-items-end -mt-96"
+            >
+                <img src="/assets/animals/monkey_giraffe.png" class="lg:mt-8" />
             </div>
         </div>
     </section>

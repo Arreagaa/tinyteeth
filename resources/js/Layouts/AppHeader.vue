@@ -16,20 +16,20 @@ watch(active, (newActive) => {
 });
 
 const urls = ref({
-    tiny: [{ title: "Tiny Teeth", url: "/#About" }],
+    tiny: [
+        { title: "Tiny Teeth", url: "/#about" },
+        { title: "Our Services", url: "/#services" },
+    ],
     team: [
-        { title: "Our Doctors", url: "/#Doctors" },
+        { title: "Our Doctors", url: "/#doctors" },
         { title: "Our Staff", url: "/our-athletes" },
     ],
-    docs: [{ title: "Documents and Forms", url: "/Patient" }],
-    tour: [{ title: "Our Facilities", url: "/#Tour" }],
-    reviews: [
-        { title: "Happy Customers", url: "/reviews" },
-        { title: "reviews", url: "/reviews" },
-    ],
+    docs: [{ title: "Documents and Forms", url: "/patient" }],
+    tour: [{ title: "Our Facilities", url: "/#tour" }],
+    reviews: [{ title: "Happy Customers", url: "/#reviews" }],
     contact: [
-        { title: "Find Us", url: "/#Contact" },
-        { title: "Contact Form", url: "/Contact-Form" },
+        { title: "Find Us", url: "/#contact" },
+        { title: "Contact Form", url: "/contact-Form" },
     ],
 });
 </script>
@@ -47,7 +47,7 @@ const urls = ref({
                         <img
                             src="/assets/tiny_teeth_logo.png"
                             alt="image"
-                            class="rounded mx-auto d-block my-8"
+                            class="rounded mx-auto d-block my-8 pt-2 lg:scale-125"
                         />
                     </a>
                 </div>
@@ -111,7 +111,7 @@ const urls = ref({
             </div>
             <div
                 v-if="active"
-                class="absolute w-screen h-screen bg-[url('/assets/bg/fondo_nubes.jpg')] bg-cover top-0 left-0"
+                class="absolute w-screen h-screen bg-[url('/assets/bg/fondo.jpg')] bg-cover top-0 left-0"
                 style="z-index: 98"
             >
                 <div class="w-screen h-screen">

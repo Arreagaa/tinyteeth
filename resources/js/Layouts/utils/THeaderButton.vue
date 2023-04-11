@@ -20,7 +20,7 @@ defineProps({
             <!-- component, ndropdown button show  -->
             <div>
                 <span
-                    class="group cursor-pointer rounded-md hover:text-green-500 flex items-center text-xl px-4"
+                    class="MerriweatherSansExtraBold group cursor-pointer rounded-md hover:text-green-500 flex items-center text-xl px-2"
                 >
                     {{ title }}
                 </span>

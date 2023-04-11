@@ -3,11 +3,11 @@ import TDoctors from "./utils/TDoctors.vue";
 import TDoctor from "./utils/TDoctor.vue";
 </script>
 <template>
-    <section class="py-8">
-        <TDoctors />
+    <section class="lg:py-8">
+        <TDoctor />
     </section>
     <section class="pt-16">
-        <TDoctor />
+        <TDoctors />
     </section>
     <div class="text-center items-center py-16 px-6">
         <a

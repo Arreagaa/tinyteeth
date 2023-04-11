@@ -17,11 +17,11 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 /* import specific icons */
 import { faYoutube, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faClock } from'@fortawesome/free-regular-svg-icons'
-import { faArrowRight, faBars, faCirclePlus, faCircleMinus, faAngleRight, faAngleLeft, faCreditCard, faX, faTooth } from '@fortawesome/free-solid-svg-icons'
+import { faArrowRight, faBars, faCirclePlus, faCircleMinus, faAngleRight, faAngleLeft, faCreditCard, faX, faTooth, faQuoteLeft, faTriangleExclamation } from '@fortawesome/free-solid-svg-icons'
 import 'vue-select/dist/vue-select.css';
 
 /* add icons to the library */
-library.add(faYoutube, faFacebook, faInstagram, faArrowRight, faBars, faCirclePlus, faCircleMinus, faEnvelope, faAngleRight, faAngleLeft, faCreditCard,faClock,faX, faTooth )
+library.add(faYoutube, faFacebook, faInstagram, faArrowRight, faBars, faCirclePlus, faCircleMinus, faEnvelope, faAngleRight, faAngleLeft, faCreditCard,faClock,faX, faTooth, faQuoteLeft, faTriangleExclamation ) 
 
 createInertiaApp({
     title: (title) => `${title} - ${appName}`,

@@ -3,12 +3,12 @@
         <div class="container mx-auto px-4">
             <div class="flex flex-wrap items-center lg:mt-10 mt-16">
                 <div
-                    class="w-full md:w-8/12 px-4 mr-auto ml-auto text-justify"
+                    class="w-full md:w-8/12 px-4 mr-auto ml-auto text-justify lg:text-base"
                 >
                     <h3
-                        class="DoctorSoosBold text-4xl mb-2 lg:mt-0 mt-8 text-sky-600"
+                        class="DoctorSoosBold text-left text-4xl mb-2 lg:mt-0 mt-8 text-sky-600"
                     >
-                        Dr. Motyka
+                        Dr Aurora Degollado
                     </h3>
                     <p
                         class="MerriweatherSansRegular text-lg leading-relaxed mt-4 mb-4 text-lime-500"
@@ -16,38 +16,44 @@
                         General Dentist
                     </p>
                     <p
-                        class="MerriweatherSansLight lg:text-lg leading-relaxed mt-4 mb-4 text-zinc-800"
+                        class="MerriweatherSansLight leading-relaxed mt-4 mb-4 text-zinc-800"
                     >
-                        Dr. Jamie Motyka a native of Berlin, CT received her
-                        undergraduate degrees from Iona College in Business
-                        Administration and Central Connecticut State University
-                        in Biology. She attended the University of Connecticut
-                        School of Dental Medicine and received her DMD degree in
-                        1997. She has been practicing for the past 13 years in
-                        private practice and public health setting.
+                        Dr. Aurora grew up in Ecuador, where she earned her
+                        Doctorate in Dental Surgery (DDS) in 2003. She completed
+                        her Pediatric Dentistry training at the University of
+                        Connecticut in Farmington, CT and Connecticut
+                        Children&#39;s Medical Center in Hartford, CT.  During
+                        her two years residency, she provided dental treatment
+                        for physically, mentally, and medically compromised
+                        pediatric patients as well as emergency care for
+                        patients experiencing dental trauma.
                     </p>
                     <p
-                        class="MerriweatherSansLight lg:text-lg leading-relaxed mt-0 mb-4 text-zinc-800"
+                        class="MerriweatherSansLight leading-relaxed mt-0 mb-4 text-zinc-800"
                     >
-                        Prior to opening her private practice in Bristol she has
-                        spent the last 12 years treating underserved children in
-                        the city of Hartford. She is an active member of the
-                        American Dental Association (ADA) and an affliate member
-                        of the American Academy of Pediatric Dentistry (AAPD).
-                        She believes that every child should be treated with
-                        care and respect as if they were her own.
+                        Prior to her pediatric dentistry residency, Dr. Aurora
+                        owned a private practice in her home country and also
+                        worked in public health. She then completed two years of
+                        Advance Education in General Dentistry program at the
+                        University of Connecticut. She also served as full time
+                        faculty in the General Dentistry department at the
+                        University of Connecticut while providing dental care at
+                        School Based Health Centers (CHC) around the state. With
+                        20 years of experience in the dental field, she has
+                        become passionate about helping children overcome their
+                        dental fear and achieving the best oral health.
                     </p>
                 </div>
                 <div
-                    class="MerriweatherSansLight w-full md:w-4/12 px-4 mr-auto ml-auto text-justify"
+                    class="MerriweatherSansLight w-full md:w-4/12 px-4 mr-auto ml-auto text-justify lg:pt-0 pt-8"
                 >
                     <div
                         class="relative flex flex-col min-w-0 bg-white break-words w-full mb-2 shadow-lg rounded-lg bg-sky-600"
                     >
                         <img
                             alt="..."
-                            src="/assets/dentist/jamie_dr_pic.png"
-                            class=""
+                            src="/assets/staff/Dr.Aurora1.jpg"
+                            class="rounded-t-lg"
                         />
                         <blockquote class="relative p-8 rounded bg-sky-600">
                             <svg
@@ -66,10 +72,10 @@
                                 Her goal is to
                             </h4>
                             <p class="lg:text-base font-light mt-2 text-white">
-                                Make every patients experience a positive one
-                                without the use of sedation or restraint. Dr.
-                                Jamie resides with her husband and 2 young
-                                children.
+                                Make each child’s experience at the dental
+                                office a positive one while guiding parents
+                                through the right dental treatment for their
+                                child.
                             </p>
                         </blockquote>
                     </div>

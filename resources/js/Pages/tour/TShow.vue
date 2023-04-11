@@ -9,13 +9,11 @@ import TInfo from "./utils/TInfo.vue";
             <div
                 class="flex flex-col items-start w-full pt-0 mb-8 text-left lg:flex-grow md:w-1/2 xl:mr-20 md:pr-24 md:mb-0"
             >
-                <h1
-                    class="DoctorSoosBold my-8 lg:text-6xl text-5xl text-sky-600"
-                >
+                <h1 class="DoctorSoosBold my-8 text-5xl text-sky-600">
                     Tiny Teeth
                 </h1>
                 <p
-                    class="MerriweatherSansLight leading-relaxed text-left text-zinc-800 text-xl"
+                    class="MerriweatherSansLight leading-relaxed text-left text-zinc-800 text-lg"
                 >
                     The place where you can get a perfect smile.
                 </p>

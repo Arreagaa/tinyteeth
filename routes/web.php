@@ -9,11 +9,11 @@ Route::get('/', function () {
     return Inertia::render('Landing/TShow');
 })->name('landing');
 
-Route::get('/Patient', function () {
+Route::get('/patient', function () {
     return Inertia::render('PatientInfo/TShow');
 })->name('patient');
 
-Route::get('/Contact-Form', function () {
+Route::get('/contact-Form', function () {
     return Inertia::render('Contact/TShow');
 })->name('contact');
 

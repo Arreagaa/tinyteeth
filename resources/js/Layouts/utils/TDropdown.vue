@@ -62,7 +62,7 @@ export default {
         >
             <div
                 v-show="open"
-                class="absolute z-50 shadow bg-sky-700 ml-6"
+                class="absolute z-50 shadow bg-sky-700"
                 :class="[widthClass, alignmentClasses]"
                 style="display: none; width: 12rem"
                 @mouseover="open = true"

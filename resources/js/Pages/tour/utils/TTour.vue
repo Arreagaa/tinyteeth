@@ -12,7 +12,7 @@ const props = defineProps({
 </script>
 <template>
     <img
-        class="object-cover object-center"
+        class="inline-block object-cover object-center rounded inline-flex border-8 border-sky-600"
         alt="hero"
         :src="item.image"
     />
