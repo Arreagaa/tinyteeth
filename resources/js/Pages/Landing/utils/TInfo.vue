@@ -41,7 +41,7 @@
                     Call our office to speak with one of our doctors on call.
                 </p>
                 <a
-                    href="/#Tour"
+                    href="/#tour"
                     class="inline-flex items-center text-lg font-medium text-sky-600 hover:text-lime-500"
                 >
                     Know more

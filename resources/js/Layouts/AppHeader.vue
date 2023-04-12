@@ -22,14 +22,14 @@ const urls = ref({
     ],
     team: [
         { title: "Our Doctors", url: "/#doctors" },
-        { title: "Our Staff", url: "/our-athletes" },
+        { title: "Our Staff", url: "/staff" },
     ],
     docs: [{ title: "Documents and Forms", url: "/patient" }],
     tour: [{ title: "Our Facilities", url: "/#tour" }],
     reviews: [{ title: "Happy Customers", url: "/#reviews" }],
     contact: [
         { title: "Find Us", url: "/#contact" },
-        { title: "Contact Form", url: "/contact-Form" },
+        { title: "Contact Form", url: "/contact-form" },
     ],
 });
 </script>
@@ -47,7 +47,7 @@ const urls = ref({
                         <img
                             src="/assets/tiny_teeth_logo.png"
                             alt="image"
-                            class="rounded mx-auto d-block my-8 pt-2 lg:scale-125"
+                            class="rounded mx-auto d-block my-4 lg:scale-75 scale-90"
                         />
                     </a>
                 </div>
@@ -119,7 +119,7 @@ const urls = ref({
                         <img
                             src="/assets/tiny_teeth_logo.png"
                             alt="image"
-                            class="rounded mx-auto d-block mt-2"
+                            class="rounded mx-auto d-block mt-4 scale-90"
                         />
                     </div>
                     <a
@@ -133,7 +133,7 @@ const urls = ref({
                         />
                     </a>
                     <ul
-                        class="font-bold uppercase tracking-tight gap-x-8 text-black gap-y-4 p-8 text-lg"
+                        class="font-bold uppercase tracking-tight gap-x-8 text-black gap-y-4 px-8 text-lg"
                     >
                         <li>
                             <THeaderButton

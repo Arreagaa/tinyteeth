@@ -52,7 +52,7 @@
                     >
                         <img
                             alt="..."
-                            src="/assets/staff/Dr.Aurora1.jpg"
+                            src="/assets/staff/Dr.Aurora.jpg"
                             class="rounded-t-lg"
                         />
                         <blockquote class="relative p-8 rounded bg-sky-600">

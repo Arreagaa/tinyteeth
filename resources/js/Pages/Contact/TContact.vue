@@ -46,7 +46,7 @@ const center = ref({ lat: 41.68741798281349, lng: -72.92500940903643 });
 
             <div class="w-full pt-4 lg:max-w-sm">
                 <a
-                    href="/Contact-Form"
+                    href="/contact-form"
                     class="text-white bg-sky-600 hover:bg-lime-200 hover:text-blue-500 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2"
                 >
                     Contact Form

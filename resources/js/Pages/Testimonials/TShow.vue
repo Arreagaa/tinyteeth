@@ -34,7 +34,7 @@ export default {
                     class="text-black text-5xl text-sky-600"
                 />
             </div>
-            <TReviews :posts="posts" />
+            <TReviews />
         </div>
     </section>
 </template>
