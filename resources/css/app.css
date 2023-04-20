@@ -49,3 +49,18 @@
 .MerriweatherSansLight{
     font-family: MerriweatherSans-Light;
 }
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(2 132 199);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}

@@ -41,7 +41,7 @@ const urls = ref({
             <div class="w-full px-4 inline-flex items-center">
                 <div class="text-center mx-auto max-w-[510px]">
                     <a
-                        href="/"
+                        :href="route('landing')"
                         class="font-semibold text-lg text-primary block mr-4"
                     >
                         <img

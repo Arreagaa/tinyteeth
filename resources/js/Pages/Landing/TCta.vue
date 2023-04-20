@@ -1,3 +1,4 @@
+<script setup></script>
 <template>
     <section class="bg-white">
         <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
@@ -13,7 +14,7 @@
                     The place where you can have a beautiful and healthy smile.
                 </p>
                 <a
-                    href="/contact-form"
+                    :href="route('contact-form')"
                     class="text-white bg-blue-300 hover:bg-lime-200 hover:text-blue-500 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2"
                 >
                     <l-icon

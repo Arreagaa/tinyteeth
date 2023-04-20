@@ -45,7 +45,7 @@
                     target="_blank"
                     class="DoctorSoosBold text-2xl text-sky-600 hover:text-lime-500 uppercase"
                 >
-                    Go to Patientconnect365 to sign up into your account
+                    Go to Patient Connect to sign up into your account
                 </a>
             </div>
         </div>
