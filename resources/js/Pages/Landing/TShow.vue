@@ -5,6 +5,7 @@ import AppFooter from "../../Layouts/AppFooter.vue";
 import TContact from "../Contact/TContact.vue";
 import TBagTitle from "./utils/TBagTitle.vue";
 import TServices from "./TServices.vue";
+import TPCta from "./utils/TPCta.vue";
 import TInfo from "./utils/TInfo.vue";
 import TShow from "../Team/TShow.vue";
 import TTour from "../tour/TShow.vue";
@@ -25,6 +26,7 @@ export default {
         TCta,
         TTestimonials,
         TShow,
+        TPCta,
         TServices,
     },
 };
@@ -85,8 +87,14 @@ export default {
         </div>
     </section>
 
+    <section
+        class="flex flex-col w-full bg-[url('/assets/tour/image14.jpg')] h-[500px] bg-cover bg-fixed bg-center flex justify-center items-center"
+    >
+        <TPCta />
+    </section>
+
     <section id="reviews" class="bg-white">
-        <div class="">
+        <div class="lg:pt-0 pt-8">
             <div class="max-w-app">
                 <TBagTitle title="Happy Customers" />
             </div>

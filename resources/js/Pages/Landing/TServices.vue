@@ -2,7 +2,7 @@
     <section class="">
         <div class="container px-4 py-8 mx-auto">
             <div class="lg:flex gap-10">
-                <div class="lg:flex lg:w-1/2 lg:justify-center lg:pt-0 pt-12">
+                <div class="lg:flex lg:w-1/2 lg:justify-center">
                     <img
                         class="object-cover rounded-lg h-auto lg:h-full"
                         src="/assets/clinic/services01.jpg"

@@ -106,6 +106,17 @@ const urls = ref({
                                 :items="urls.contact"
                             />
                         </li>
+                        <li class="py-2 text-sky-600 text-3xl">
+                            <a href="" target="_blank">
+                                <l-icon icon="fa-brands fa-facebook" />
+                            </a>
+                            <a href="" target="_blank">
+                                <l-icon
+                                    icon="fa-brands fa-instagram"
+                                    class="px-2"
+                                />
+                            </a>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -170,6 +181,19 @@ const urls = ref({
                                 title="CONTACT US"
                                 :items="urls.contact"
                             />
+                        </li>
+                        <li
+                            class="flex items-center text-sky-600 text-3xl pl-6"
+                        >
+                            <a href="" target="_blank">
+                                <l-icon icon="fa-brands fa-facebook" />
+                            </a>
+                            <a href="" target="_blank">
+                                <l-icon
+                                    icon="fa-brands fa-instagram"
+                                    class="px-2"
+                                />
+                            </a>
                         </li>
                     </ul>
                 </div>
