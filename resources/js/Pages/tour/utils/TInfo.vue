@@ -32,16 +32,7 @@ export default {
                     image: "/assets/tour/image04.jpg",
                 },
                 {
-                    image: "/assets/tour/image05.jpg",
-                },
-                {
                     image: "/assets/tour/image06.jpg",
-                },
-                {
-                    image: "/assets/tour/image07.jpg",
-                },
-                {
-                    image: "/assets/tour/image08.jpg",
                 },
                 {
                     image: "/assets/tour/image09.jpg",
@@ -92,7 +83,6 @@ export default {
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;

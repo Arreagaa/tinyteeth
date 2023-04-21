@@ -9,7 +9,7 @@ export default {
     <div
         class="MerriweatherSansLight lg:text-lg text-base py-4 lg:px-8 max-w-app"
     >
-        <p class="items-center text-center text-gray-500 lg:mx-8">
+        <p class="items-center text-center text-gray-800 lg:mx-8">
             ❝ {{ post.body }} ❞
         </p>
 

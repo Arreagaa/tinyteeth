@@ -5,16 +5,18 @@ import AppFooter from "../../Layouts/AppFooter.vue";
 import TBagTitle from "../Landing/utils/TBagTitle.vue";
 </script>
 <template>
-    <div class="header bg-[url('/assets/bg/fondo_nubes.jpg')]">
-        <AppHeader />
-    </div>
-    <section class="relative max-w-app">
-        <TBagTitle title="Send us a message" />
+    <section data-aos="fade-up">
+        <div class="header bg-[url('/assets/bg/fondo.jpg')]">
+            <AppHeader />
+        </div>
+        <section class="relative max-w-app">
+            <TBagTitle title="Send us a message" />
+            <div>
+                <TContactForm />
+            </div>
+        </section>
         <div>
-            <TContactForm />
+            <AppFooter />
         </div>
     </section>
-    <div>
-        <AppFooter />
-    </div>
 </template>

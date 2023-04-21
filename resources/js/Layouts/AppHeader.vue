@@ -24,7 +24,7 @@ const urls = ref({
         { title: "Our Doctors", url: "/#doctors" },
         { title: "Our Staff", url: "/staff" },
     ],
-    docs: [{ title: "Documents and Forms", url: "/patient" }],
+    docs: [{ title: "you need to know", url: "/patient" }],
     tour: [{ title: "Our Facilities", url: "/#tour" }],
     reviews: [{ title: "Happy Customers", url: "/#reviews" }],
     contact: [
@@ -64,7 +64,7 @@ const urls = ref({
         <header class="max-w-fit m-auto">
             <div class="flex justify-center items-center lg:py-2 sm:py-8">
                 <nav
-                    class="flex w-full lg:p-8 items-center lg:justify-between justify-center"
+                    class="flex w-full lg:p-4 items-center lg:justify-between justify-center"
                 >
                     <ul
                         class="lg:flex hidden flex-col items-center lg:items-start lg:flex-row font-bold text-sm uppercase tracking-tight text-black gap-x-4"

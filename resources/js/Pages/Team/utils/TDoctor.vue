@@ -47,7 +47,7 @@
                         Dr. Patricia Pina
                     </h3>
                     <p
-                        class="MerriweatherSansRegular text-lg leading-relaxed mt-4 mb-4 text-lime-500"
+                        class="MerriweatherSansRegular text-xl leading-relaxed mt-4 mb-4 text-lime-500"
                     >
                         Pediatric Dentistry
                     </p>

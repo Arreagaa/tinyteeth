@@ -33,6 +33,7 @@ export default {
     <section
         id="Welcome"
         class="header bg-[url('/assets/bg/fondo.jpg')] bg-cover bg-center bg-repeat bg-fixed"
+        data-aos="fade-up"
     >
         <div>
             <AppHeader />

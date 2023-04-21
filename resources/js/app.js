@@ -1,5 +1,12 @@
 import './bootstrap';
 import '../css/app.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init({
+    duration: 1500,
+    offset: 200,
+});
 
 import { createApp, h } from 'vue';
 import { createInertiaApp } from '@inertiajs/vue3';

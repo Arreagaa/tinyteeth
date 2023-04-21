@@ -1,3 +1,12 @@
+<script>
+export default {
+    data() {
+        return {
+            currentYear: new Date().getFullYear(),
+        };
+    },
+};
+</script>
 <template>
     <div class="flex max-w-screen-xl mx-auto items-center">
         <img src="/assets/bg/inicio.png" class="" />
@@ -5,7 +14,7 @@
     <footer class="bg-lime-200 text-zinc-900 px-6 lg:px-8 py-12">
         <div class="max-w-screen-xl mx-auto mb-12">
             <img
-                class="h-16"
+                class="h-20"
                 src="/assets/tiny_teeth_logo.png"
                 alt="UptimeMate logo"
             />
@@ -116,22 +125,9 @@
         <div
             class="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-4 mt-8 border-t-2 border-sky-600 pt-8"
         >
-            <nav class="flex flex-wrap justify-center space-x-6 pt-2">
-                <a
-                    href="https://schoolaid.app/"
-                    target="_blank"
-                    class="font-bold inline-flex items-center text-sm hover:text-sky-600"
-                >
-                    Powered By&nbsp;
-                    <img
-                        class="h-8 mt-2"
-                        src="/assets/schoolaid.png"
-                        alt="UptimeMate logo"
-                /></a>
-            </nav>
             <p class="text-sm text-center md:text-right">
-                &copy;2023 Tiny Teeth General Denistry, LLC. A Childrens Dentist
-                in Bristol, CT. | All rights reserved.
+                &copy;{{ currentYear }} Tiny Teeth Pediatric Denistry, PLLC. A Childrens
+                Dentist in Bristol, CT.
             </p>
         </div>
     </footer>

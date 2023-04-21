@@ -52,11 +52,6 @@ export default {
                     body: "Nutella is a toy poodle. She is our Emotional Support Dog. Born in November of 2019, she came to Dr. Paty’s life at the start of the Covid pandemic. When she is in the office, she sits with the most anxious and apprehensive patients to help them relax during some dental procedures. She is hypoallergenic and absolutely loves children.",
                     image: "assets/staff/Nutela.jpg",
                 },
-                {
-                    name: "Dawn",
-                    body: "Dawn is our Insurance Coordinator since 2022. She has many years of experience in the dental field. She enjoys working in the office very much and likes to keep all the accounts in order. She assists patients with insurance benefits and communicates with insurance companies regarding claims. Let her know if you have any questions, she will be happy to assist you.",
-                    image: "assets/staff/Nutela.jpg",
-                },
             ],
         };
     },
@@ -70,4 +65,49 @@ export default {
             <TSCard :item="item" />
         </div>
     </section>
+    <div class="card-one py-8">
+        <div class="container m-auto text-gray-600">
+            <div class="grid lg:grid-cols-1">
+                <div
+                    class="rounded-xl group bg-white bg-opacity-50 shadow-xl hover:rounded-2xl"
+                >
+                    <div class="lg:flex items-center">
+                        <img
+                            src="/assets/tour/image11.jpg"
+                            alt=""
+                            class="lg:h-full w-full lg:w-5/12 object-cover object-top rounded-lg transform scale-90"
+                        />
+                        <div class="lg:pr-8 p-4">
+                            <div class="space-y-2">
+                                <div class="space-y-4">
+                                    <h4
+                                        class="DoctorSoosBold font-bold text-3xl text-sky-600 pt-4 px-2"
+                                    >
+                                        Dawn
+                                    </h4>
+                                    <p
+                                        class="text-gray-700 mt-2 text-justify px-2"
+                                    >
+                                        Dawn's career in dental began more than
+                                        two decades ago when she started as a
+                                        dental assistant! At Tiny Teeth
+                                        Pediatric Dentistry, she is the office
+                                        AR Specialist/Insurance Coordinator. She
+                                        really enjoys her position here because
+                                        she’s able to help patients better
+                                        understand their insurance policies. She
+                                        also loves working alongside such
+                                        excellent dentists and staff members!
+                                        Outside of work, you can find her
+                                        spending time with her son, friends,
+                                        family, and traveling to SC!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </template>
