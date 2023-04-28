@@ -72,21 +72,16 @@ export default {
                     class="rounded-xl group bg-white bg-opacity-50 shadow-xl hover:rounded-2xl"
                 >
                     <div class="lg:flex items-center">
-                        <img
-                            src="/assets/tour/image11.jpg"
-                            alt=""
-                            class="lg:h-full w-full lg:w-5/12 object-cover object-top rounded-lg transform scale-90"
-                        />
                         <div class="lg:pr-8 p-4">
                             <div class="space-y-2">
                                 <div class="space-y-4">
                                     <h4
-                                        class="DoctorSoosBold font-bold text-3xl text-sky-600 pt-4 px-2"
+                                        class="DoctorSoosBold font-bold text-3xl text-sky-600 pt-4 px-4"
                                     >
                                         Dawn
                                     </h4>
                                     <p
-                                        class="text-gray-700 mt-2 text-justify px-2"
+                                        class="text-gray-700 mt-2 text-justify px-4"
                                     >
                                         Dawn's career in dental began more than
                                         two decades ago when she started as a

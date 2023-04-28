@@ -88,7 +88,7 @@ export default {
     </section>
 
     <section
-        class="flex flex-col w-full bg-[url('/assets/tour/image14.jpg')] h-[500px] bg-cover bg-fixed bg-center flex justify-center items-center"
+        class="flex flex-col w-full bg-[url('/assets/bg/IMG_9827.jpg')] h-[500px] bg-cover bg-fixed bg-center flex justify-center items-center"
     >
         <TPCta />
     </section>

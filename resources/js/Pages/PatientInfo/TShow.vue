@@ -6,16 +6,13 @@ import TBagTitle from "../Landing/utils/TBagTitle.vue";
 </script>
 <template>
     <section data-aos="fade-up">
-        <div class="header bg-[url('/assets/bg/fondo.jpg')]">
+        <div
+            class="header bg-[url('/assets/bg/fondo.jpg')] bg-cover bg-center bg-repeat bg-fixed"
+        >
             <AppHeader />
         </div>
         <section class="relative max-w-app">
             <TBagTitle title="Patient Information" />
-            <div>
-                <p class="DoctorSoosBold text-2xl text-lime-500 pt-2 ml-5">
-                    Necessary information, everything you need to know.
-                </p>
-            </div>
             <div class="flex justify-center items-center flex-grow">
                 <TInfo />
             </div>

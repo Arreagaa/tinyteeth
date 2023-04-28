@@ -33,14 +33,14 @@ export default {
                         <ul class="space-y-2">
                             <li>
                                 <a
-                                    href="/#About"
+                                    href="/#about"
                                     class="font-normal text-base hover:text-sky-600"
                                     >About Us</a
                                 >
                             </li>
                             <li>
                                 <a
-                                    href="/#Tour"
+                                    href="/#tour"
                                     class="font-normal text-base hover:text-sky-600"
                                     >Tour Our Facility
                                 </a>
@@ -58,31 +58,24 @@ export default {
                         <ul class="grid lg:grid-cols-2">
                             <li class="mb-2">
                                 <a
-                                    href="/#Doctors"
+                                    href="/#doctors"
                                     class="font-normal text-base hover:text-sky-600"
                                     >Meet Our Doctors
                                 </a>
                             </li>
                             <li class="mb-2">
                                 <a
-                                    href="#"
+                                    href="/staff"
                                     class="font-normal text-base hover:text-sky-600"
                                     >Meet Our Staff
                                 </a>
                             </li>
                             <li class="mb-2">
                                 <a
-                                    href="#"
+                                    href="/#reviews"
                                     class="font-normal text-base hover:text-sky-600"
                                     >Happy Customers
                                 </a>
-                            </li>
-                            <li class="mb-2">
-                                <a
-                                    href="#"
-                                    class="font-normal text-base hover:text-sky-600"
-                                    >Leave us a Comment</a
-                                >
                             </li>
                         </ul>
                     </nav>
@@ -97,7 +90,7 @@ export default {
                         <ul class="grid lg:grid-cols-2">
                             <li class="mb-2">
                                 <a
-                                    href="/#Contact"
+                                    href="/#contact"
                                     class="font-normal text-base hover:text-sky-600"
                                     >Contact Us
                                 </a>
@@ -112,9 +105,9 @@ export default {
                             </li>
                             <li class="mb-2">
                                 <a
-                                    href="/Patient"
+                                    href="/patient"
                                     class="font-normal text-base hover:text-sky-600"
-                                    >Documents and Forms
+                                    >Patient Information
                                 </a>
                             </li>
                         </ul>

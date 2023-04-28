@@ -6,7 +6,7 @@ import TBagTitle from "../Landing/utils/TBagTitle.vue";
 </script>
 <template>
     <section data-aos="fade-up">
-        <div class="header bg-[url('/assets/bg/fondo.jpg')]">
+        <div class="header bg-[url('/assets/bg/fondo.jpg')] bg-cover bg-center bg-repeat bg-fixed">
             <AppHeader />
         </div>
         <section class="relative max-w-app">

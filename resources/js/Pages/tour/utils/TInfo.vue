@@ -29,6 +29,9 @@ export default {
                     image: "/assets/tour/image03.jpg",
                 },
                 {
+                    image: "/assets/clinic/about.jpg",
+                },
+                {
                     image: "/assets/tour/image04.jpg",
                 },
                 {

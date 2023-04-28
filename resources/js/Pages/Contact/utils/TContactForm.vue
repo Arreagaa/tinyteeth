@@ -136,17 +136,15 @@ const submit = () => {
                 <img src="/assets/animals/zebra_hippo.png" class="" />
             </div>
             <div
-                class="lg:hidden w-full lg:-mt-96 lg:w-2/6 px-8 py-12 ml-auto bg-sky-600 rounded-2xl"
+                class="lg:hidden w-full lg:-mt-96 lg:w-2/6 px-6 py-12 ml-auto bg-sky-600 rounded-2xl"
             >
                 <div class="flex flex-col text-white">
                     <h1
                         class="MerriweatherSansExtraBold uppercase text-2xl my-4"
                     >
-                        Drop in our office
+                    Make An Appointment Today!
                     </h1>
-                    <p class="MerriweatherSansLight text-white text-xl">
-                        Make An Appointment Today!
-                    </p>
+                    
 
                     <div class="flex my-4 w-2/3 lg:w-1/2">
                         <div class="flex flex-col">

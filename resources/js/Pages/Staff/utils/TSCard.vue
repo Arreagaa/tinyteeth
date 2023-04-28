@@ -12,7 +12,7 @@ export default {
             :alt="name"
             class="w-full h-full object-cover object-center transform scale-90 rounded-lg"
         />
-        <div class="p-4 h-80 overflow-y-auto">
+        <div class="lg:px-6 px-4 h-80 overflow-y-auto">
             <h4
                 class="DoctorSoosBold text-3xl font-semibold text-sky-600 pt-4 px-2"
             >

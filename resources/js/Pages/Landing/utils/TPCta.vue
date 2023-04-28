@@ -1,30 +1,34 @@
 <script></script>
 <template>
-    <h1
-        class="DoctorSoosBold text-white text-6xl lg:px-0 px-12 font-semibold mt-20 lg:mb-10 text-center"
-    >
-        Learn more about us
-    </h1>
-    <span
-        class="MerriweatherSansRegular text-center font-bold my-10 text-white text-lg"
-    >
-        <a :href="route('contact-form')" class="text-white/90 hover:text-white">
-            Make your appointment now
-        </a>
-        <hr class="my-4" />
-
-        <a :href="route('patient')" class="text-white/90 hover:text-white">
-            Important information
-        </a>
-        <hr class="my-4" />
-        <p>
-            <a
-                href="https://www.patientconnect365.com/"
-                target="_blank"
-                class="text-white/90 hover:text-white"
+    <div class="container h-screen flex justify-center items-center overflow-hidden">
+        <div
+            class="bg-sky-800 bg-opacity-80 xl:px-72 flex flex-col items-center justify-center relative z-40"
+        >
+            <h1
+                class="DoctorSoosBold text-white text-7xl max-[375px]:text-6xl lg:px-0 px-12 font-semibold mt-20 lg:mb-10 text-center"
             >
-                Connect with us
-            </a>
-        </p>
-    </span>
+                Learn more about us
+            </h1>
+            <span
+                class="MerriweatherSansRegular text-center font-bold my-10 text-white text-xl"
+            >
+                <a :href="route('contact-form')" class="text-white"
+                    >Make your appointment now</a
+                >
+                <hr class="my-4" />
+                <a :href="route('patient')" class="text-white"
+                    >Important information</a
+                >
+                <hr class="my-4" />
+                <p>
+                    <a
+                        href="https://www.patientconnect365.com/"
+                        target="_blank"
+                        class="text-white"
+                        >Connect with us</a
+                    >
+                </p>
+            </span>
+        </div>
+    </div>
 </template>

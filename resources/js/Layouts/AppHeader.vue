@@ -107,10 +107,10 @@ const urls = ref({
                             />
                         </li>
                         <li class="py-2 text-sky-600 text-3xl">
-                            <a href="" target="_blank">
+                            <a href="https://www.facebook.com/tinyteeth?mibextid=LQQJ4d" target="_blank">
                                 <l-icon icon="fa-brands fa-facebook" />
                             </a>
-                            <a href="" target="_blank">
+                            <a href="https://www.instagram.com/tinyteethct/" target="_blank">
                                 <l-icon
                                     icon="fa-brands fa-instagram"
                                     class="px-2"
@@ -185,10 +185,10 @@ const urls = ref({
                         <li
                             class="flex items-center text-sky-600 text-3xl pl-6"
                         >
-                            <a href="" target="_blank">
+                            <a href="https://www.facebook.com/tinyteeth?mibextid=LQQJ4d" target="_blank">
                                 <l-icon icon="fa-brands fa-facebook" />
                             </a>
-                            <a href="" target="_blank">
+                            <a href="https://www.instagram.com/tinyteethct/" target="_blank">
                                 <l-icon
                                     icon="fa-brands fa-instagram"
                                     class="px-2"

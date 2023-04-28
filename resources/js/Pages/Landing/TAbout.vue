@@ -1,7 +1,7 @@
 <template>
     <section>
         <div
-            class="gap-8 items-center px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:px-6"
+            class="gap-10 items-center px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:px-6"
         >
             <div
                 class="MerriweatherSansLight text-zinc-800 text-base text-justify"
@@ -24,16 +24,14 @@
                     her staff have more than 20 years of experience and will
                     take the best care of your children’s teeth.
                 </p>
+                <p class="DoctorSoosBold text-lime-500 text-3xl py-8">
+                    With more than twenty years of experience.
+                </p>
             </div>
-            <div class="grid grid-cols-2 gap-4 lg:mt-0 mt-4">
+            <div class="lg:mt-0 mt-4">
                 <img
                     class="w-full h-full rounded-lg"
-                    src="/assets/clinic/about.jpg"
-                    alt=""
-                />
-                <img
-                    class="mt-4 w-full lg:mt-10 -mb-8 rounded-lg"
-                    src="/assets/clinic/about01.jpg"
+                    src="/assets/staff/Group2.jpg"
                     alt=""
                 />
             </div>
