@@ -1,15 +1,19 @@
 <script>
+import { Link } from "@inertiajs/vue3";
 export default {
     data() {
         return {
             currentYear: new Date().getFullYear(),
         };
     },
+    components: {
+        Link,
+    },
 };
 </script>
 <template>
     <div class="flex max-w-screen-xl mx-auto items-center">
-        <img src="/assets/bg/inicio.png" class="" />
+        <img src="/assets/bg/Inicio.png" class="" />
     </div>
     <footer class="bg-lime-200 text-zinc-900 px-6 lg:px-8 py-12">
         <div class="max-w-screen-xl mx-auto mb-12">
@@ -32,18 +36,18 @@ export default {
                     <nav class="mt-4">
                         <ul class="space-y-2">
                             <li>
-                                <a
+                                <Link
                                     href="/#about"
                                     class="font-normal text-base hover:text-sky-600"
-                                    >About Us</a
+                                    >About Us</Link
                                 >
                             </li>
                             <li>
-                                <a
+                                <Link
                                     href="/#tour"
                                     class="font-normal text-base hover:text-sky-600"
                                     >Tour Our Facility
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </nav>
@@ -57,25 +61,25 @@ export default {
                     <nav class="mt-4">
                         <ul class="grid lg:grid-cols-2">
                             <li class="mb-2">
-                                <a
+                                <Link
                                     href="/#doctors"
                                     class="font-normal text-base hover:text-sky-600"
                                     >Meet Our Doctors
-                                </a>
+                                </Link>
                             </li>
                             <li class="mb-2">
-                                <a
+                                <Link
                                     href="/staff"
                                     class="font-normal text-base hover:text-sky-600"
                                     >Meet Our Staff
-                                </a>
+                                </Link>
                             </li>
                             <li class="mb-2">
-                                <a
+                                <Link
                                     href="/#reviews"
                                     class="font-normal text-base hover:text-sky-600"
                                     >Happy Customers
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </nav>
@@ -89,11 +93,11 @@ export default {
                     <nav class="mt-4">
                         <ul class="grid lg:grid-cols-2">
                             <li class="mb-2">
-                                <a
+                                <Link
                                     href="/#contact"
                                     class="font-normal text-base hover:text-sky-600"
                                     >Contact Us
-                                </a>
+                                </Link>
                             </li>
                             <li class="mb-2">
                                 <a
@@ -104,11 +108,11 @@ export default {
                                 </a>
                             </li>
                             <li class="mb-2">
-                                <a
+                                <Link
                                     href="/patient"
                                     class="font-normal text-base hover:text-sky-600"
                                     >Patient Information
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </nav>
@@ -119,8 +123,8 @@ export default {
             class="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-4 mt-8 border-t-2 border-sky-600 pt-8"
         >
             <p class="text-sm text-center md:text-right">
-                &copy;{{ currentYear }} Tiny Teeth Pediatric Denistry, PLLC. A Childrens
-                Dentist in Bristol, CT.
+                &copy;{{ currentYear }} Tiny Teeth Pediatric Denistry, PLLC. A
+                Childrens Dentist in Bristol, CT.
             </p>
         </div>
     </footer>
