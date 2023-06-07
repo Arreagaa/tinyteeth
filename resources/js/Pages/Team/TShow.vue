@@ -4,7 +4,7 @@ import TDoctor from "./utils/TDoctor.vue";
 import { Link } from "@inertiajs/vue3";
 </script>
 <template>
-    <section class="lg:py-8">
+    <section class="lg:py-8 lg:pb-16">
         <TDoctor />
     </section>
     <section class="pt-16">

@@ -49,35 +49,51 @@
                     <p
                         class="MerriweatherSansRegular text-xl leading-relaxed mt-4 mb-4 text-lime-500"
                     >
-                        Pediatric Dentistry
+                        Pediatric Dentist
                     </p>
                     <p
                         class="MerriweatherSansLight leading-relaxed mt-4 mb-4 text-zinc-800"
                     >
-                        Dr. Patricia Pina joined Tiny Teeth in 2012. Since day
-                        one, her goal has been to provide the best dental care
-                        possible to all children and teens, patiently explaining
-                        every procedure and always showing care and respect. She
-                        loves meeting new families and getting to know her
-                        patients. She truly loves her job, her patients and her
-                        staff. In 2023, she became the proud owner of Tiny
-                        Teeth, after previous owner Dr. Jamie Motyka, retired
-                        from dentistry.
+                        Dr. Patricia Pina joined Tiny Teeth in 2012 with the aim
+                        of providing top-quality dental care to children and
+                        teenagers. She is dedicated to patiently explaining
+                        procedures and treating her patients with care and
+                        respect. Dr. Pina loves building relationships with new
+                        families and has a deep passion for her job, patients,
+                        and staff. In 2023, she became the proud owner of Tiny
+                        Teeth after the previous owner, Dr. Jamie Motyka,
+                        retired.
                     </p>
                     <p
                         class="MerriweatherSansLight leading-relaxed mt-0 mb-4 text-zinc-800"
                     >
-                        She completed her specialty training in Pediatric
-                        Dentistry at the University of Connecticut and
-                        Connecticut Children&#39;s Medical Center in 2009, after
-                        completing 2 years of an Advanced Education in General
-                        Dentistry Residency Program. After her residency, she
-                        served for 3 years as a full-time faculty member
-                        teaching the residents at the Connecticut Children&#39;s
-                        Medical Center and working as a Pediatric Dentist at
-                        East Hartford Community Health Center. She received her
-                        DDS degree from Francisco Marroquin University in
+                        Dr. Patricia Pina completed her specialty training in
+                        Pediatric Dentistry at the University of Connecticut and
+                        Connecticut Children's Medical Center in 2009. Prior to
+                        that, she underwent a two-year Advanced Education in
+                        General Dentistry Residency Program. Following her
+                        residency, she spent three years as a full-time faculty
+                        member, teaching residents at the Connecticut Children's
+                        Medical Center and working as a Pediatric Dentist at the
+                        East Hartford Community Health Center. Dr. Pina obtained
+                        her DDS degree from Francisco Marroquin University in
                         Guatemala in 2003.
+                    </p>
+                    <p
+                        class="MerriweatherSansLight leading-relaxed mt-0 mb-4 text-zinc-800"
+                    >
+                        As a member of the medical staff with privileges at the
+                        Connecticut Children's Medical Center, Dr. Patricia Pina
+                        actively participates in professional organizations such
+                        as the American Academy of Pediatric Dentistry and the
+                        Connecticut Society of Pediatric Dentists. She has been
+                        board certified by the American Board of Pediatric
+                        Dentistry since 2013. Dr. Pina possesses exceptional
+                        skills and dedication in treating children, including
+                        those with special healthcare needs, in both office and
+                        hospital settings. Her dental surgeries are conducted at
+                        the Connecticut Children's Medical Center in Hartford
+                        and the Ambulatory Surgery Center in Farmington.
                     </p>
                 </div>
             </div>

@@ -13,7 +13,7 @@
                     <p
                         class="MerriweatherSansRegular text-xl leading-relaxed mt-4 mb-4 text-lime-500"
                     >
-                        Pediatric Dentistry
+                        Pediatric Dentist
                     </p>
                     <p
                         class="MerriweatherSansLight leading-relaxed mt-4 mb-4 text-zinc-800"
