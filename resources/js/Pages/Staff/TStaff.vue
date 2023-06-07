@@ -66,7 +66,7 @@ export default {
         </div>
     </section>
     <div class="card-one py-8">
-        <div class="container m-auto text-gray-600">
+        <div class="m-auto text-gray-600">
             <div class="grid lg:grid-cols-1">
                 <div
                     class="rounded-xl group bg-white bg-opacity-50 shadow-xl hover:rounded-2xl"

@@ -2,6 +2,7 @@
 import { router } from "@inertiajs/vue3";
 import { ref } from "vue";
 import { GoogleMap, Marker } from "vue3-google-map";
+import { Link } from "@inertiajs/vue3";
 
 const center = ref({ lat: 41.68741798281349, lng: -72.92500940903643 });
 </script>
@@ -46,12 +47,12 @@ const center = ref({ lat: 41.68741798281349, lng: -72.92500940903643 });
             </div>
 
             <div class="w-full pt-4 lg:max-w-sm">
-                <a
+                <Link
                     :href="route('contact-form')"
                     class="text-white bg-sky-600 hover:bg-lime-200 hover:text-blue-500 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2"
                 >
                     Contact Form
-            </a>
+                </Link>
             </div>
         </div>
     </div>

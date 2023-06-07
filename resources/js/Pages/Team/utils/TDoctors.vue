@@ -1,6 +1,6 @@
 <template>
     <section class="-mt-24">
-        <div class="container mx-auto px-4">
+        <div class="mx-auto px-4">
             <div class="flex flex-wrap items-center lg:mt-10 mt-16">
                 <div
                     class="w-full md:w-8/12 px-4 mr-auto ml-auto text-justify lg:text-base"

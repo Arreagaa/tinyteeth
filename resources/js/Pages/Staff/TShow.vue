@@ -18,7 +18,7 @@ import TStaff from "./TStaff.vue";
         <div>
             <div class="py-24">
                 <div
-                    class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6"
+                    class="2xl:container m-auto px-6 text-gray-600 md:px-12 xl:px-6"
                 >
                     <div class="mb-12 space-y-2 text-center object-">
                         <h2 class="DoctorSoosBold text-6xl text-lime-500">

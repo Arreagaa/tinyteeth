@@ -9,7 +9,7 @@ export default {
 </script>
 <template>
     <section>
-        <div class="container mx-auto px-6 py-10">
+        <div class="mx-auto px-6 py-10">
             <h1
                 class="MerriweatherSansExtraBold text-center text-3xl capitalize text-gray-800 lg:text-4xl"
             >

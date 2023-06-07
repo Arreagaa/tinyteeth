@@ -1,23 +1,25 @@
-<script></script>
+<script setup>
+import { Link } from '@inertiajs/vue3';
+</script>
 <template>
-    <div class="container h-screen flex justify-center items-center overflow-hidden">
+    <div class="h-screen flex justify-center items-center overflow-hidden">
         <div
             class="bg-sky-800 bg-opacity-80 xl:px-72 flex flex-col items-center justify-center relative z-40"
         >
             <h1
-                class="DoctorSoosBold text-white text-7xl max-[375px]:text-6xl lg:px-0 px-12 font-semibold mt-20 lg:mb-10 text-center"
+                class="DoctorSoosBold text-white text-7xl max-[375px]:text-6xl px-12 font-semibold mt-20 lg:mb-10 text-center"
             >
                 Learn more about us
             </h1>
             <span
                 class="MerriweatherSansRegular text-center font-bold my-10 text-white text-xl"
             >
-                <a :href="route('contact-form')" class="text-white"
-                    >Make your appointment now</a
+                <Link :href="route('contact-form')" class="text-white"
+                    >Make your appointment now</Link
                 >
                 <hr class="my-4" />
-                <a :href="route('patient')" class="text-white"
-                    >Important information</a
+                <Link :href="route('patient')" class="text-white"
+                    >Important information</Link
                 >
                 <hr class="my-4" />
                 <p>

@@ -1,6 +1,6 @@
 <template>
     <section class="">
-        <div class="container px-4 py-8 mx-auto">
+        <div class="px-4 py-8 mx-auto">
             <div class="lg:flex gap-10">
                 <div class="lg:flex lg:w-1/2 lg:justify-center">
                     <img

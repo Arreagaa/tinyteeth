@@ -63,7 +63,7 @@ export default {
 <template>
     <div class="w-full lg:max-w-3xl lg:mt-10">
         <div class="swiper inline-block">
-            <swiper :navigation="true" :modules="modules" class="mySwiper">
+            <swiper :navigation="true" :modules="modules" class="tour">
                 <swiper-slide v-for="(item, index) in tour" :key="index">
                     <TTour :item="item" />
                 </swiper-slide>
@@ -71,16 +71,15 @@ export default {
         </div>
     </div>
 </template>
-
 <style>
 .swiper {
     width: 100%;
     height: 100%;
 }
 
-.swiper-button-next,
-.swiper-button-prev {
-    color: #0284c7;
+.tour .swiper-button-next,
+.tour .swiper-button-prev {
+    color: #fff;
 }
 
 .swiper-slide {

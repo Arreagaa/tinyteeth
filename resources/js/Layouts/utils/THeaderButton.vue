@@ -20,7 +20,7 @@ defineProps({
             <!-- component, ndropdown button show  -->
             <div>
                 <span
-                    class="MerriweatherSansExtraBold group cursor-pointer rounded-md hover:text-green-500 flex items-center text-xl px-2"
+                    class="flex items-center px-2 text-xl rounded-md cursor-pointer md:text-base MerriweatherSansExtraBold group hover:text-green-500 2xl:text-xl lg:text-lg"
                 >
                     {{ title }}
                 </span>
@@ -28,7 +28,7 @@ defineProps({
         </template>
         <template #content>
             <!-- component, ndropdown content show  -->
-            <div class="content px-2 pb-22 pt-4 bg-sky-700 text-white">
+            <div class="px-2 pt-4 text-white content pb-22 bg-sky-700">
                 <ul>
                     <li
                         v-for="(item, index) in items"
@@ -36,7 +36,7 @@ defineProps({
                         class="mb-2"
                     >
                         <a
-                            class="DoctorSoosBold hover:text-green-500 text-xl"
+                            class="text-xl md:text-base lg:text-lg 2xl:text-xl DoctorSoosBold hover:text-green-500"
                             :href="item.url"
                         >
                             {{ item.title }}

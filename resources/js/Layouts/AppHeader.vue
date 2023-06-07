@@ -36,38 +36,35 @@ const urls = ref({
 <template>
     <div class="Header">
         <div
-            class="header justify-center max-w-app px-16 flex sm:flex-nowrap flex-wrap"
+            class="flex flex-wrap justify-center px-16 header max-w-app sm:flex-nowrap"
         >
-            <div class="w-full px-4 inline-flex items-center">
+            <div class="inline-flex items-center w-full px-4">
                 <div class="text-center mx-auto max-w-[510px]">
-                    <a
-                        :href="route('landing')"
-                        class="font-semibold text-lg text-primary block mr-4"
-                    >
+                    <a :href="route('landing')" class="block mr-4">
                         <img
                             src="/assets/tiny_teeth_logo.png"
                             alt="image"
-                            class="rounded mx-auto d-block my-4 lg:scale-75 scale-90"
+                            class="xl:w-[22rem] lg:w-64 md:w-[20rem] my-4 w-64"
                         />
                     </a>
                 </div>
-                <div class="lg:hidden block">
+                <div class="block lg:hidden">
                     <a @click="active = !active">
                         <l-icon
                             icon="fa-solid fa-bars"
-                            class="text-black text-2xl"
+                            class="text-2xl text-sky-600"
                         />
                     </a>
                 </div>
             </div>
         </div>
-        <header class="max-w-fit m-auto">
-            <div class="flex justify-center items-center lg:py-2 sm:py-8">
+        <header class="m-auto max-w-fit">
+            <div class="flex items-center justify-center lg:py-2 sm:py-8">
                 <nav
-                    class="flex w-full lg:p-4 items-center lg:justify-between justify-center"
+                    class="flex items-center justify-center w-full lg:p-4 lg:justify-between"
                 >
                     <ul
-                        class="lg:flex hidden flex-col items-center lg:items-start lg:flex-row font-bold text-sm uppercase tracking-tight text-black gap-x-4"
+                        class="flex-col items-center hidden font-bold tracking-tight text-black uppercase lg:flex lg:items-start lg:flex-row gap-x-4"
                     >
                         <li>
                             <THeaderButton
@@ -106,11 +103,17 @@ const urls = ref({
                                 :items="urls.contact"
                             />
                         </li>
-                        <li class="py-2 text-sky-600 text-3xl">
-                            <a href="https://www.facebook.com/tinyteeth?mibextid=LQQJ4d" target="_blank">
+                        <li class="py-2 text-3xl text-sky-600">
+                            <a
+                                href="https://www.facebook.com/tinyteeth?mibextid=LQQJ4d"
+                                target="_blank"
+                            >
                                 <l-icon icon="fa-brands fa-facebook" />
                             </a>
-                            <a href="https://www.instagram.com/tinyteethct/" target="_blank">
+                            <a
+                                href="https://www.instagram.com/tinyteethct/"
+                                target="_blank"
+                            >
                                 <l-icon
                                     icon="fa-brands fa-instagram"
                                     class="px-2"
@@ -130,7 +133,7 @@ const urls = ref({
                         <img
                             src="/assets/tiny_teeth_logo.png"
                             alt="image"
-                            class="rounded mx-auto d-block mt-4 scale-90"
+                            class="w-64 mt-4"
                         />
                     </div>
                     <a
@@ -140,11 +143,11 @@ const urls = ref({
                     >
                         <l-icon
                             icon="fa-solid fa-x"
-                            class="text-black text-2xl mt-1"
+                            class="mt-1 text-2xl text-sky-600"
                         />
                     </a>
                     <ul
-                        class="font-bold uppercase tracking-tight gap-x-8 text-black gap-y-4 px-8 text-lg"
+                        class="px-8 font-bold tracking-tight text-black uppercase gap-x-8 gap-y-4"
                     >
                         <li>
                             <THeaderButton
@@ -183,12 +186,18 @@ const urls = ref({
                             />
                         </li>
                         <li
-                            class="flex items-center text-sky-600 text-3xl pl-6"
+                            class="flex items-center pl-6 text-3xl text-sky-600"
                         >
-                            <a href="https://www.facebook.com/tinyteeth?mibextid=LQQJ4d" target="_blank">
+                            <a
+                                href="https://www.facebook.com/tinyteeth?mibextid=LQQJ4d"
+                                target="_blank"
+                            >
                                 <l-icon icon="fa-brands fa-facebook" />
                             </a>
-                            <a href="https://www.instagram.com/tinyteethct/" target="_blank">
+                            <a
+                                href="https://www.instagram.com/tinyteethct/"
+                                target="_blank"
+                            >
                                 <l-icon
                                     icon="fa-brands fa-instagram"
                                     class="px-2"

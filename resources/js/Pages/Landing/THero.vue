@@ -9,22 +9,22 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div
-                            class="lg:block hidden carousel-container absolute top-40 left-52"
+                            class="absolute hidden lg:block carousel-container top-40 left-52"
                         >
                             <section
-                                class="flex flex-wrap items-center -mx-6 px-4 py-4 mx-auto w-full lg:max-w-screen-lg sm:max-w-screen-sm md:max-w-screen-md"
+                                class="flex flex-wrap items-center w-full px-4 py-4 mx-auto -mx-6 lg:max-w-screen-lg sm:max-w-screen-sm md:max-w-screen-md"
                             >
-                                <div class="flex px-3 w-full">
+                                <div class="flex w-full px-3">
                                     <div
-                                        class="text-white mx-auto mb-8 max-w-lg text-center lg:mx-0 lg:max-w-md lg:text-left"
+                                        class="max-w-lg mx-auto mb-8 text-center text-white lg:mx-0 lg:max-w-md lg:text-left"
                                     >
                                         <h2
-                                            class="DoctorSoosBold mt-12 text-left lg:text-9xl"
+                                            class="mt-12 text-left DoctorSoosBold lg:text-9xl"
                                         >
                                             Welcome to Tiny Teeth
                                         </h2>
                                         <p
-                                            class="DoctorSoosBold visible mx-0 mt-3 mb-0 text-4xl leading-relaxed text-left text-white"
+                                            class="visible mx-0 mt-3 mb-0 text-4xl leading-relaxed text-left text-white DoctorSoosBold"
                                         >
                                             Where you can have a smile as
                                             healthy as mine.
@@ -34,22 +34,22 @@
                             </section>
                         </div>
                         <div
-                            class="lg:hidden carousel-container absolute top-12 left-4"
+                            class="absolute lg:hidden carousel-container top-12 left-4"
                         >
                             <section
-                                class="flex flex-wrap items-center -mx-3 px-4 mx-auto w-full lg:max-w-screen-lg sm:max-w-screen-sm md:max-w-screen-md"
+                                class="flex flex-wrap items-center w-full px-4 mx-auto -mx-3 lg:max-w-screen-lg sm:max-w-screen-sm md:max-w-screen-md"
                             >
-                                <div class="flex px-3 w-full lg:w-2/5">
+                                <div class="flex w-full px-3 lg:w-2/5">
                                     <div
-                                        class="text-white mx-auto mb-8 max-w-lg text-center lg:mx-0 lg:max-w-md lg:text-left"
+                                        class="max-w-lg mx-auto mb-8 text-center text-white lg:mx-0 lg:max-w-md lg:text-left"
                                     >
                                         <h2
-                                            class="DoctorSoosBold text-7xl text-left"
+                                            class="text-left DoctorSoosBold text-7xl"
                                         >
                                             Welcome to Tiny Teeth
                                         </h2>
                                         <p
-                                            class="DoctorSoosBold visible mx-0 mt-3 mb-0 text-3xl leading-relaxed text-left text-white"
+                                            class="visible mx-0 mt-3 mb-0 text-3xl text-left text-white DoctorSoosBold"
                                         >
                                             Where you can have a smile as
                                             healthy as mine.
