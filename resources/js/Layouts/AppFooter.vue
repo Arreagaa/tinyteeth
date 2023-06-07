@@ -21,7 +21,7 @@ export default {
         </div>
         <div class="max-w-screen-xl mx-auto">
             <div
-                class="grid grid-cols-8 divide-y-2 md:grid-cols-9 lg:grid-cols-8 divide-sky-600 md:divide-x-2 md:divide-y-0 md:-mx-8"
+                class="grid grid-cols-8 divide-y-2 md:grid-cols-9 lg:grid-cols-8 divide-sky-600 md:divide-x-2 md:divide-y-0 lg:-mx-8"
             >
                 <div
                     class="col-span-8 py-4 md:col-span-3 lg:col-span-2 md:px-8 md:py-0"
