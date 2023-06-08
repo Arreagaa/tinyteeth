@@ -19,7 +19,7 @@ export default {
                 },
                 {
                     name: "Hilary",
-                    body: "Hilary is a Dental Hygienist and has been working in Pediatrics her entire career. She joined our practice in August of 2020. Hilary graduated from the University of New Haven in 2011 with a Bachelor’s degree. She traveled to Romania as part of her internship and spent two weeks at an orphanage providing dental care to underserved children. In her spare time, Hilary enjoys spending time with her family and friends. She resides with her husband, gaughter and their two miniature Schnauzers.",
+                    body: "Hilary is a Dental Hygienist and has been working in Pediatrics her entire career. She joined our practice in August of 2020. Hilary graduated from the University of New Haven in 2011 with a Bachelor’s degree. She traveled to Romania as part of her internship and spent two weeks at an orphanage providing dental care to underserved children. In her spare time, Hilary enjoys spending time with her family and friends. She resides with her husband, daughter and their two miniature Schnauzers.",
                     image: "assets/staff/Hilary.jpg",
                 },
                 {
